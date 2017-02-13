@@ -1,5 +1,7 @@
 python httpc.py post --header Content-Type:application/json -d "{\"Assignment\": 1}" http://httpbin.org/post
 
+python httpc.py post --header Content-Type:application/json -d "{\"Assignmentkkk\": 1}" http://httpbin.org/post
+
 python httpc.py post --header Accept-Language:en-US --header Content-Type:application/json -d "{\"Assignment\": 1}" http://httpbin.org/post
 
 python httpc.py post -d "{\"Assignment\": 1}" http://httpbin.org/post
