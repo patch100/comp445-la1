@@ -1,0 +1,13 @@
+python httpc.py post --header Content-Type:application/json -d "{\"Assignment\": 1}" http://httpbin.org/post
+
+python httpc.py post --header Accept-Language:en-US --header Content-Type:application/json -d "{\"Assignment\": 1}" http://httpbin.org/post
+
+python httpc.py post -d "{\"Assignment\": 1}" http://httpbin.org/post
+
+python httpc.py post --header Content-Type:application/json -f "data.json" http://httpbin.org/post
+
+python httpc.py get "http://httpbin.org/get?course=networking&assignment=1"
+
+python httpc.py get -v "http://httpbin.org/get?course=networking&assignment=1"
+
+python httpc.py -h
